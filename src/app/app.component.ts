@@ -2,10 +2,9 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  // templateUrl: './app.component.html',
   template:`
   <app-nav></app-nav>
-  <app-event-list></app-event-list>
+  <router-outlet></router-outlet>
   `,
   styleUrls: ['./app.component.css']
 })
